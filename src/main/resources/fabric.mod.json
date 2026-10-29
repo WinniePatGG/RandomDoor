@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "randomdoorportals",
+  "version": "${version}",
+  "name": "Random Door Portals",
+  "description": "Walk through an open door and emerge from a random other door somewhere in the same dimension. Server-side only.",
+  "authors": [
+    "WinniePatGG"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.winniepat.randomdoorportals.RandomDoorPortals"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.21 <1.21.2",
+    "java": ">=21"
+  }
+}
